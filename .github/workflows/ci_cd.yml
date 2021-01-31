@@ -10,5 +10,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: show project struture
-        run: ls -la
+      - name: configure node version
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
