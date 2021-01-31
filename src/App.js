@@ -16,7 +16,7 @@ function App() {
             className="App-link"
             href="https://unileao.edu.br/"
             target="_blank"
-            rel="unileao"
+            rel="noreferrer"
           >
             Unileão
           </a>
