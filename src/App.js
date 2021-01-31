@@ -1,15 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <img src="https://unileao.edu.br/wp-content/themes/portalv2.0/img/logo.svg" className="App-logo" alt="logo" />
-       <div className="App-content">
-          <span>
-            Especialização de engenharia de software
-          </span>
+        <img
+          src="https://unileao.edu.br/wp-content/themes/portalv2.0/img/logo.svg"
+          className="App-logo"
+          alt="logo"
+        />
+        <div className="App-content">
+          <span>Especialização de engenharia de software</span>
           <p>Gerência de configuração</p>
           <a
             className="App-link"
@@ -19,7 +20,7 @@ function App() {
           >
             Unileão
           </a>
-       </div> 
+        </div>
       </header>
     </div>
   );
