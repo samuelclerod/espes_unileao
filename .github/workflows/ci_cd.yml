@@ -1,0 +1,11 @@
+name: CI_CD
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  build-workflow:
+    runs-on: ubuntu-18.04
+    steps:
+      - run: ls -la
