@@ -8,4 +8,7 @@ jobs:
   build-workflow:
     runs-on: ubuntu-18.04
     steps:
-      - run: ls -la
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: show project struture
+        run: ls -la
